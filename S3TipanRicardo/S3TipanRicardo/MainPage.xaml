@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="S3TipanRicardo.MainPage">
+    
+
+
+    <StackLayout>
+
+        <Label Text="Login"  TextColor="#004680" HorizontalOptions="CenterAndExpand"
+               FlexLayout.AlignSelf="Stretch" HorizontalTextAlignment="Center"
+               FontSize="Large">
+        </Label>
+
+        <Entry x:Name="txtUser" Placeholder="Usuario" 
+               HorizontalOptions="CenterAndExpand" 
+               FlexLayout.AlignSelf="Stretch">
+        </Entry>
+
+        <Entry x:Name="txtPass" Placeholder="Contraseña"
+               IsPassword="True" Keyboard="Default"
+               HorizontalOptions="CenterAndExpand"
+               FlexLayout.AlignSelf="Stretch">
+        </Entry>
+
+
+        <Button x:Name="bntventana1" Text="Iniciar" FontSize="Medium"
+                FlexLayout.AlignSelf="Stretch" BackgroundColor="#43FF33"
+                Clicked="bntventana1_Clicked" CornerRadius="5" HorizontalOptions="Center"
+                VerticalOptions="CenterAndExpand">
+            
+        </Button>
+        
+    </StackLayout>
+
+</ContentPage>
